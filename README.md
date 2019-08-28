@@ -65,6 +65,10 @@ $ chown root:root /path/to/chrome-sandbox
 $ sudo chmod 4755 /path/to/chrome-sandbox
 ```
 
+Ideally, when preparing a production build, this change would be made
+automatically. I haven't gotten around to implementing this yet, but will do so
+as soon as I muster the motivation (or get a PR).
+
 ### using electron in react
 You may not be able to access `electron` from your react app. The following
 will throw an error:
